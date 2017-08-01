@@ -19,8 +19,8 @@ gem 'js_cookie_rails'
 gem 'rails-i18n', '~> 5.0.0'
 
 gem 'jbuilder'
-gem 'pg'
-
+#gem 'pg'
+gem 'mysql2'
 gem 'redcarpet'
 gem 'rouge'
 gem 'slim-rails'
