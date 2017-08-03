@@ -59,6 +59,7 @@ task :deploy => :environment do
 
     on :launch do
       invoke :'rvm:use', '2.3.1'
+      invoke :'bundle:install'
       invoke :'puma:hard_restart'
       invoke :'sidekiq:restart'
     end
